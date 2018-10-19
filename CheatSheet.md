@@ -265,13 +265,12 @@ strset - Sets all characters ofstring to a given character
 strnset - Sets first n characters ofa string to a given character
 strrev - Reverses string
 ```
-
+```
 ### 13 STRUCTURE 
 	
 - A structure is a user defined data type in C/C++. A structure creates a data type that can be used to group items of possibly different types into a single type. 
 
 >‘struct’ keyword is used to create a structure. Following is an example.
-
 ```
 struct addrress 
 { 
@@ -283,3 +282,12 @@ struct addrress
 };
 ```
 
+To access the members of the structure, we need to declare a member in the main function and use the "." operator.
+```
+'''
+int main()
+{
+	struct addrress lol;
+	lol.pin=101;
+}
+```
